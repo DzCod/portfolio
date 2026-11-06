@@ -1,0 +1,251 @@
+{
+  "Metadata": {
+    "title": "Portfolio Développeur",
+    "description": "Portfolio minimal pour développeur conçu avec Next.js 16 et shadcn/ui"
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "en": "English",
+    "fr": "Français",
+    "shortEn": "EN",
+    "shortFr": "FR"
+  },
+  "HomePage": {
+    "title": "Portfolio Développeur",
+    "description": "Projet de portfolio initialisé avec Next.js 16, Tailwind CSS 4, shadcn/ui et next-intl."  },
+  "Navigation": {
+    "brand": "Portfolio Dev",
+    "brandAriaLabel": "Accueil du portfolio développeur",
+    "navigationLabel": "Navigation principale",
+    "openMenu": "Ouvrir le menu de navigation",
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "availability": "Disponible pour certains projets",
+    "title": "Je crée des produits numériques avec",
+    "titleAccent": "précision.",
+    "description": "Développeur Next.js et TypeScript, je transforme des idées complexes en expériences web rapides, accessibles et durables pour les entreprises ambitieuses.",
+    "primaryCta": "Travaillons ensemble",
+    "secondaryCta": "Voir les projets"
+  },
+  "About": {
+    "label": "01 / À propos",
+    "heading": "Transformer les idées en",
+    "headingAccent": "produits numériques utiles.",
+    "introduction": "Je suis développeur Next.js et TypeScript. Je conçois des expériences web modernes, claires, pratiques et véritablement utiles.",
+    "approach": "J'aborde le développement comme un problème produit : comprendre l'objectif, réduire la complexité et bâtir une solution durable autour des besoins réels.",
+    "craft": "Mon travail se concentre sur une architecture frontend rigoureuse, des interfaces soignées et un code compréhensible, même lorsque le produit évolue.",
+    "profileAlt": "Portrait de Nassim",
+    "principlesTitle": "Principes de travail",
+    "principlesCount": "04 / 04",
+    "principles": {
+      "product": {
+        "title": "Vision produit",
+        "description": "Partir du problème, privilégier des résultats utiles et aligner chaque implémentation avec son objectif."
+      },
+      "architecture": {
+        "title": "Architecture frontend",
+        "description": "Créer des composants clairs et des structures prévisibles capables d'évoluer sans devenir fragiles."
+      },
+      "experience": {
+        "title": "Expérience utilisateur",
+        "description": "Transformer les besoins en interfaces accessibles, avec des interactions cohérentes et des retours explicites."
+      },
+      "performance": {
+        "title": "Performance et maintenabilité",
+        "description": "Privilégier un rendu efficace, un code lisible et des choix pragmatiques pour assurer la fiabilité dans le temps."
+      }
+    }
+  },
+  "Services": {
+    "label": "02 / Services",
+    "heading": "Des services ciblés pour",
+    "headingAccent": "le web.",
+    "introduction": "Du premier parcours d'acquisition à une application Next.js complète, je développe des expériences web claires et maintenables en accord avec l'objectif du produit.",
+    "capabilitiesLabel": "Compétences incluses",
+    "services": {
+      "landing": {
+        "scope": "Présence produit ciblée",
+        "title": "Développement de pages d'accueil",
+        "description": "Des pages d'accueil conçues pour présenter clairement un produit ou une offre, guider l'attention et offrir une expérience confortable sur tous les écrans.",
+        "features": [
+          "Structure orientée conversion",
+          "Mises en page responsive",
+          "Interfaces modernes",
+          "Implémentation attentive aux performances"
+        ]
+      },
+      "business": {
+        "scope": "Présence professionnelle",
+        "title": "Développement de sites d'entreprise",
+        "description": "Des sites structurés qui permettent à une entreprise de présenter clairement son offre tout en restant simples à parcourir, faire évoluer et maintenir.",
+        "features": [
+          "Fondations professionnelles solides",
+          "Code structuré et maintenable",
+          "Design responsive",
+          "Expérience utilisateur claire"
+        ]
+      },
+      "application": {
+        "scope": "Développement de produits et plateformes",
+        "title": "Développement d'applications web",
+        "description": "Des applications Next.js modernes construites autour de besoins précis, avec une architecture pratique capable d'accompagner les interactions et l'évolution future.",
+        "features": [
+          "Développement avec Next.js",
+          "Architecture basée sur TypeScript",
+          "Intégration d'API et de services backend",
+          "Solutions évolutives et maintenables"
+        ]
+      }
+    }
+  },
+  "Projects": {
+    "label": "03 / Travaux sélectionnés",
+    "heading": "Une sélection de réalisations.",
+    "introduction": "Une sélection ciblée de produits web et de projets e-commerce, présentée autour des systèmes et des fonctionnalités effectivement développés.",
+    "technologyLabel": "Technologies du projet",
+    "contributionsLabel": "Contributions au projet",
+    "ecomix": {
+      "number": "01 / Projet principal",
+      "category": "SaaS / Gestion e-commerce",
+      "description": "Plateforme algérienne de gestion des commandes conçue pour aider les marchands e-commerce à gérer les produits, commandes, clients, livraisons et pages d'accueil.",
+      "visualLabel": "Composition abstraite du système opérationnel Ecomix",
+      "systemLabel": "Opérations",
+      "mapLabel": "Cartographie système",
+      "features": {
+        "products": "Produits",
+        "orders": "Commandes",
+        "customers": "Clients",
+        "delivery": "Livraison"
+      }
+    },
+    "najmcoiff": {
+      "number": "02 / E-commerce",
+      "category": "Développement Shopify",
+      "description": "J'ai travaillé sur le site e-commerce, puis développé des fonctionnalités Shopify sur mesure, notamment un formulaire de commande personnalisé et un panier personnalisé.",
+      "visualLabel": "Composition abstraite de l'interface Shopify Najmcoiff",
+      "orderFormLabel": "Formulaire de commande personnalisé",
+      "cartLabel": "Panier personnalisé",
+      "customLabel": "Sur mesure",
+      "checkoutLabel": "Paiement",
+      "features": {
+        "website": "Site e-commerce",
+        "orderForm": "Formulaire de commande Shopify personnalisé",
+        "cart": "Panier Shopify personnalisé"
+      }
+    },
+    "technical": {
+      "label": "Projets de développement",
+      "heading": "Travail technique en cours.",
+      "introduction": "Projets techniques compacts illustrant l'architecture applicative, l'authentification, la gestion d'état, les bases de données et les processus métier. Ils sont présentés comme des projets de développement, et non comme des produits déployés.",
+      "status": "Projet technique",
+      "featuresLabel": "Fonctionnalités implémentées",
+      "projects": {
+        "foodOrdering": {
+          "description": "Application de commande de repas explorant le catalogue, le panier, l'authentification et les parcours produits reliés à une base de données.",
+          "features": {
+            "cart": "État du panier avec Redux Toolkit",
+            "authentication": "Configuration de l'authentification NextAuth",
+            "database": "Intégration des données MongoDB et Prisma"
+          }
+        },
+        "gamingShop": {
+          "description": "Boutique gaming explorant l'authentification protégée, l'état du panier, les étapes de paiement et les formulaires validés.",
+          "features": {
+            "cart": "État des produits et du panier avec Redux Toolkit",
+            "checkout": "Interface de paiement en plusieurs étapes",
+            "authentication": "Authentification NextAuth",
+            "protectedRoutes": "Middleware de routes protégées"
+          }
+        },
+        "posNajm": {
+          "description": "Application locale de point de vente couvrant l'authentification, les ventes, la gestion des commandes et la génération PDF.",
+          "features": {
+            "authentication": "Connexion et inscription avec NextAuth",
+            "orders": "Création et gestion des commandes",
+            "dashboard": "Interface de gestion et d'exploitation",
+            "pdf": "Génération de PDF"
+          }
+        }
+      }
+    }
+  },
+  "Experience": {
+    "label": "04 / Expérience",
+    "heading": "La pratique, concrètement.",
+    "introduction": "Un aperçu structuré du développement indépendant et des contributions web réalisées, sans jalons ni chronologies inventés.",
+    "technologyLabel": "Technologies",
+    "najmcoiff": {
+      "company": "Najmcoiff",
+      "role": "Développeur web / Développement e-commerce",
+      "status": "Travaux de développement",
+      "technologyNote": "Shopify",
+      "responsibilities": {
+        "0": "Développement du site e-commerce de l'entreprise.",
+        "1": "Poursuite du développement après la migration vers Shopify.",
+        "2": "Développement d'un formulaire de commande Shopify personnalisé.",
+        "3": "Développement d'un panier Shopify personnalisé."
+      }
+    },
+    "ecomix": {
+      "company": "Ecomix",
+      "role": "Fondateur & développeur",
+      "status": "Projet indépendant",
+      "technologyNote": "Stack Next.js",
+      "responsibilities": {
+        "0": "Développement indépendant d'un système algérien de gestion des commandes destiné aux marchands e-commerce.",
+        "1": "Travail sur la gestion des produits et des commandes.",
+        "2": "Travail sur la gestion des clients et les processus de livraison.",
+        "3": "Développement de fonctionnalités de pages d'accueil au sein de la plateforme.",
+        "4": "Développement de la plateforme avec Next.js, TypeScript et MongoDB."
+      }
+    }
+  },
+  "Skills": {
+    "label": "05 / Compétences",
+    "heading": "Les outils du métier.",
+    "introduction": "Une stack technique pratique pour concevoir des interfaces responsive, des applications maintenables et des intégrations e-commerce ciblées.",
+    "frontend": {
+      "code": "Interface",
+      "title": "Front-end",
+      "description": "Interfaces modernes et accessibles, construites avec une approche par composants et une attention particulière au responsive."
+    },
+    "backend": {
+      "code": "Systèmes",
+      "title": "Back-end & Base de données",
+      "description": "Fondations applicatives orientées données pour les parcours e-commerce, les API, les intégrations sur mesure et les plateformes opérationnelles."
+    },
+    "workflow": {
+      "code": "Workflow",
+      "title": "Outils & Organisation",
+      "description": "Un workflow ciblé pour structurer les projets Next.js, gérer la localisation, le contrôle de version et la maintenabilité."
+    }
+  },
+  "Contact": {
+    "label": "06 / Contact",
+    "heading": "Construisons",
+    "headingAccent": "quelque chose d'utile.",
+    "introduction": "Vous avez un site, une application web ou un projet e-commerce en tête ? Présentez les éléments essentiels et lançons la conversation.",
+    "availability": "Disponible pour échanger sur un projet",
+    "invitation": "Expliquez ce que vous souhaitez construire, les changements nécessaires et l'état actuel du projet.",
+    "responseLabel": "Moyen de contact",
+    "response": "Utilisez le formulaire pour préparer un e-mail dans votre application de messagerie.",
+    "emailLabel": "E-mail direct",
+    "copy": "Copier l'e-mail",
+    "copied": "Copié",
+    "send": "Rédiger un e-mail",
+    "subjectPrefix": "Demande de projet depuis le portfolio",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre e-mail",
+      "message": "Message du projet",
+      "namePlaceholder": "Nom",
+      "emailPlaceholder": "vous@example.com",
+      "messagePlaceholder": "Décrivez brièvement votre projet, vos objectifs et vos délais."
+    }
+  }
+}
