@@ -3,6 +3,7 @@
 import { Check, Copy, Send } from "lucide-react";
 import { FormEvent, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { SocialLinks } from "@/components/SocialLinks";
 
 interface ContactActionsProps {
   email: string;
@@ -16,6 +17,9 @@ interface ContactActionsProps {
   namePlaceholder: string;
   emailPlaceholder: string;
   messagePlaceholder: string;
+  githubLabel: string;
+  linkedinLabel: string;
+  socialLabel: string;
 }
 
 export function ContactActions({
@@ -30,6 +34,9 @@ export function ContactActions({
   namePlaceholder,
   emailPlaceholder,
   messagePlaceholder,
+  githubLabel,
+  linkedinLabel,
+  socialLabel,
 }: ContactActionsProps) {
   const [copied, setCopied] = useState(false);
 
@@ -58,6 +65,16 @@ export function ContactActions({
           {copied ? <Check className="text-accent" /> : <Copy />}
           <span className="hidden sm:inline">{copied ? copiedLabel : copyLabel}</span>
         </Button>
+      </div>
+
+      <div className="mt-5 flex flex-wrap items-center gap-4">
+        <span className="font-mono text-[10px] uppercase text-muted-foreground">{socialLabel}</span>
+        <SocialLinks
+          githubLabel={githubLabel}
+          linkedinLabel={linkedinLabel}
+          className="gap-5"
+          linkClassName="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        />
       </div>
 
       <form className="mt-8 grid gap-5" onSubmit={sendMessage}>

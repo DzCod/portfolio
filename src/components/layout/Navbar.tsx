@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { MobileNavigation } from "@/components/layout/MobileNavigation";
+import { SocialLinks } from "@/components/SocialLinks";
 
 export async function Navbar({ locale }: { locale: string }) {
   const t = await getTranslations("Navigation");
@@ -48,10 +49,15 @@ export async function Navbar({ locale }: { locale: string }) {
           ))}
         </nav>
 
-        <div
-          className="hidden items-center gap-1 lg:flex"
-          aria-label={localeT("label")}
-        >
+        <div className="hidden items-center gap-5 lg:flex">
+          <SocialLinks
+            iconOnly
+            linkClassName="grid size-8 place-items-center text-muted-foreground transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          />
+          <div
+            className="flex items-center gap-1"
+            aria-label={localeT("label")}
+          >
           {["en", "fr"].map((language) => (
             <Link
               key={language}
@@ -67,6 +73,7 @@ export async function Navbar({ locale }: { locale: string }) {
               {localeT(language === "en" ? "shortEn" : "shortFr")}
             </Link>
           ))}
+          </div>
         </div>
 
         <div className="lg:hidden">

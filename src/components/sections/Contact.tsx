@@ -61,6 +61,9 @@ export async function Contact() {
               namePlaceholder={t("form.namePlaceholder")}
               emailPlaceholder={t("form.emailPlaceholder")}
               messagePlaceholder={t("form.messagePlaceholder")}
+              githubLabel={t("github")}
+              linkedinLabel={t("linkedin")}
+              socialLabel={t("socialLabel")}
             />
           </div>
         </div>

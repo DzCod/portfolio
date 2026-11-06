@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Portfolio Développeur",
-    "description": "Portfolio minimal pour développeur conçu avec Next.js 16 et shadcn/ui"
+    "title": "Développeur Next.js & TypeScript | Nassim",
+    "description": "Nassim est développeur web freelance spécialisé Next.js et TypeScript en Algérie, et crée des applications web modernes et des solutions e-commerce."
   },
   "LocaleSwitcher": {
     "label": "Changer de langue",
@@ -113,7 +113,12 @@
       "number": "01 / Projet principal",
       "category": "SaaS / Gestion e-commerce",
       "description": "Plateforme algérienne de gestion des commandes conçue pour aider les marchands e-commerce à gérer les produits, commandes, clients, livraisons et pages d'accueil.",
-      "visualLabel": "Composition abstraite du système opérationnel Ecomix",
+      "visualLabel": "Captures réelles de l'application Ecomix",
+      "screenshots": {
+        "dashboardAlt": "Tableau de bord de gestion des commandes Ecomix",
+        "shippingAlt": "Interface de gestion des sociétés de livraison d'Ecomix",
+        "landingAlt": "Page d'accueil publique d'Ecomix"
+      },
       "systemLabel": "Opérations",
       "mapLabel": "Cartographie système",
       "features": {
@@ -238,6 +243,9 @@
     "copy": "Copier l'e-mail",
     "copied": "Copié",
     "send": "Rédiger un e-mail",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "socialLabel": "Profils",
     "subjectPrefix": "Demande de projet depuis le portfolio",
     "form": {
       "name": "Votre nom",
@@ -247,5 +255,15 @@
       "emailPlaceholder": "vous@example.com",
       "messagePlaceholder": "Décrivez brièvement votre projet, vos objectifs et vos délais."
     }
+  },
+  "Footer": {
+    "statement": "Développeur Next.js et TypeScript",
+    "linksLabel": "Liens de contact",
+    "email": "E-mail",
+    "emailAriaLabel": "Envoyer un e-mail à Nassim",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "copyright": "© {year} {name}. Tous droits réservés.",
+    "builtWith": "Conçu avec Next.js"
   }
 }

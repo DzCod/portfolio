@@ -3,6 +3,7 @@
 import { Menu } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
+import { SocialLinks } from "@/components/SocialLinks";
 import {
   Sheet,
   SheetContent,
@@ -55,7 +56,13 @@ export function MobileNavigation({
           ))}
         </nav>
 
-        <div className="mt-auto border-t border-border pt-6">
+        <SocialLinks
+          iconOnly
+          className="mt-auto gap-2 border-t border-border pt-6"
+          linkClassName="grid size-10 place-items-center border border-border text-muted-foreground transition-colors hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        />
+
+        <div className="mt-6">
           <p className="mb-3 text-xs uppercase text-muted-foreground">
             {languageLabel}
           </p>

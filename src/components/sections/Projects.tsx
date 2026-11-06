@@ -1,4 +1,5 @@
-import { Boxes, ShoppingBag } from "lucide-react";
+import Image from "next/image";
+import { ShoppingBag } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 const ecomixTechnologies = ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS"];
@@ -79,44 +80,33 @@ export async function Projects() {
               </ul>
             </div>
 
-            <div
-              className="relative min-h-[22rem] overflow-hidden border border-border bg-background sm:min-h-[28rem]"
-              aria-label={t("ecomix.visualLabel")}
-            >
-              <div className="pointer-events-none absolute inset-0 opacity-[0.05] [background-image:linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] [background-size:48px_48px]" />
-              <div className="absolute top-0 right-0 left-0 flex h-11 items-center justify-between border-b border-border px-4 font-mono text-[10px] text-muted-foreground">
-                <span>ECOMIX / {t("ecomix.systemLabel")}</span>
-                <span className="text-accent">{t("ecomix.mapLabel")}</span>
-              </div>
-              <div className="absolute inset-x-5 top-16 bottom-5 grid grid-cols-2 gap-3 sm:inset-x-8 sm:top-20 sm:gap-5">
-                {["products", "orders", "customers", "delivery"].map(
-                  (feature, index) => (
-                    <div
-                      key={feature}
-                      className={`relative border border-border bg-card p-4 transition-transform duration-300 group-hover:-translate-y-1 sm:p-5 ${
-                        index % 2 === 0 ? "translate-y-0" : "mt-8"
-                      }`}
-                    >
-                      <div className="flex items-start justify-between">
-                        <Boxes
-                          className="size-4 text-accent"
-                          aria-hidden="true"
-                        />
-                        <span className="font-mono text-[10px] text-zinc-600">
-                          0{index + 1}
-                        </span>
-                      </div>
-                      <p className="mt-8 font-mono text-xs uppercase text-foreground sm:text-sm">
-                        {t(`ecomix.features.${feature}`)}
-                      </p>
-                      <div className="mt-4 h-px bg-border">
-                        <div
-                          className={`h-px bg-accent/70 ${index === 0 ? "w-4/5" : index === 1 ? "w-3/5" : index === 2 ? "w-2/3" : "w-1/2"}`}
-                        />
-                      </div>
-                    </div>
-                  ),
-                )}
+            <div className="grid gap-3" aria-label={t("ecomix.visualLabel")}>
+              <figure className="group/image relative aspect-video overflow-hidden border border-border bg-card transition-colors duration-300 hover:border-accent/50">
+                <Image
+                  src="/images/projects/ecomix/dashboard.webp"
+                  alt={t("ecomix.screenshots.dashboardAlt")}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 56vw"
+                  className="object-contain transition-transform duration-500 group-hover/image:scale-[1.01]"
+                  priority
+                />
+              </figure>
+
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                {[
+                  { src: "/images/projects/ecomix/shipping-companies.webp", alt: t("ecomix.screenshots.shippingAlt") },
+                  { src: "/images/projects/ecomix/landing-page.webp", alt: t("ecomix.screenshots.landingAlt") },
+                ].map((screenshot) => (
+                  <figure key={screenshot.src} className="group/image relative aspect-video overflow-hidden border border-border bg-card transition-colors duration-300 hover:border-accent/50">
+                    <Image
+                      src={screenshot.src}
+                      alt={screenshot.alt}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 28vw"
+                      className="object-contain transition-transform duration-500 group-hover/image:scale-[1.01]"
+                    />
+                  </figure>
+                ))}
               </div>
             </div>
           </div>

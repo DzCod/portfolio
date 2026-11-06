@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Developer Portfolio",
-    "description": "Minimal developer portfolio built with Next.js 16 and shadcn/ui"
+    "title": "Next.js & TypeScript Developer | Nassim",
+    "description": "Nassim is a freelance Next.js, TypeScript and web developer based in Algeria, building modern web applications and e-commerce solutions."
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -114,7 +114,12 @@
       "number": "01 / Featured project",
       "category": "SaaS / E-commerce management",
       "description": "An Algerian order management platform designed to help e-commerce merchants manage products, orders, customers, delivery workflows, and landing pages.",
-      "visualLabel": "Abstract Ecomix operations system composition",
+      "visualLabel": "Real Ecomix application screenshots",
+      "screenshots": {
+        "dashboardAlt": "Ecomix order management dashboard",
+        "shippingAlt": "Ecomix shipping companies management interface",
+        "landingAlt": "Ecomix public storefront landing page"
+      },
       "systemLabel": "Operations",
       "mapLabel": "System map",
       "features": {
@@ -239,6 +244,9 @@
     "copy": "Copy email",
     "copied": "Copied",
     "send": "Compose email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "socialLabel": "Profiles",
     "subjectPrefix": "Portfolio project enquiry",
     "form": {
       "name": "Your name",
@@ -248,5 +256,15 @@
       "emailPlaceholder": "you@example.com",
       "messagePlaceholder": "Briefly describe your project, goals, and timing."
     }
+  },
+  "Footer": {
+    "statement": "Next.js and TypeScript developer",
+    "linksLabel": "Contact links",
+    "email": "Email",
+    "emailAriaLabel": "Email Nassim",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "builtWith": "Built with Next.js"
   }
 }
